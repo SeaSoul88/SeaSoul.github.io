@@ -1,3 +1,4 @@
+@import "./medias.scss";
 /*Общие стили*/
 /* settings */
 body {
@@ -29,7 +30,7 @@ header {
   justify-content: space-between;
   padding: 35px;
   height: 25vh;
-  background: url("../images/background2.jpg");
+  background: url("../assets/images/background2.jpg");
   color: #0d0b0b;
 }
 .header-bottom {
@@ -128,7 +129,7 @@ button:hover {
 content: "";
 position: absolute;
 top: 50%;
-width: 12px;
+width: max 30px / 2;
 height: 1px;
 background: #070918;
 }

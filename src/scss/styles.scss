@@ -59,7 +59,7 @@ header {
 }
 
 button:hover {
-  background-color: rgb(14, 4, 11);
+  background-color: rgb(105, 52, 89);
 } 
 /*li {
   padding: 8px 12px 15px 20px;
@@ -168,5 +168,12 @@ background: #070918;
 
 .section__grid::first-line {
 color: rgb(145, 255, 0);
+}
+
+.form-label {
+  display: inline;
+  background: #8a7c7c;
+  font: 25px;
+  text-decoration: none;
 }
 /*Стили футера*/

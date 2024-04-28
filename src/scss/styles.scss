@@ -170,6 +170,48 @@ background: #070918;
 color: rgb(145, 255, 0);
 }
 
+.tabs {
+  display: none;
+
+  &__inner {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 36px 125px;
+
+    margin-top: 47px;
+  }
+
+  &__item {
+    display: flex;
+    justify-content: space-between;
+    width: 40%;
+  }
+
+  &__title {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+  }
+
+  &__text {
+    margin-top: 8px;
+
+    line-height: 16px;
+  }
+
+  &__coast {
+    white-space: nowrap;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    color: #00bf78;
+  }
+
+  &_active {
+    display: block;
+  }
+}
+
 .form-label {
   display: inline;
   background: #8a7c7c;
